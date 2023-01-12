@@ -1,0 +1,5 @@
+Head Tag :  it was accessing before adding a HTML tag <h1> and hence it's showing an error that cannot set property to NULL 
+
+start of Body : it was also the same because controle has not gone to the h1 tag
+
+end of body : works perfect with no error
