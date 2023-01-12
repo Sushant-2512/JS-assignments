@@ -1,0 +1,7 @@
+1.  By logging the value before decleration it will through an error havin message "cannot access a before intialization" and if we do after intialization then it works fine and print the value in the console of respective variable. and In the const it gives same error as let while logging  before intialization  and next also through an error that "Missing intializer in the const decleration".
+
+2. The overall conclusion of q is typeof null,[] is Object and typeof NaN is number itself .   There is isNaN() method in javascript which gives that the variable passed as argument is a NaN or not and for array we have Array.isArray() method which returns a boolean according to the input .
+
+3. So if we decleare objects as let then we  can modify and delete value of it and for const it  is also true but the diffrence is that we can't  assign it with new object or array
+
+
