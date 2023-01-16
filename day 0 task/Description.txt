@@ -1,0 +1,27 @@
+1. Garbage Collection :- It is a mechanism in which Garbage collector collects unrequired memory and release it this aumtomation of memory deallocation id called Garbage collection.
+
+It uses 'Mark and sweep algorithm' it checks the number of references to particular memory and release it when references became 0.
+
+
+2.
+Arrow function                                                                       statement function
+
+1.Arrow function are of expression type                                           1. function are of statement type
+2. they are introduced after ES6                                                  2. they are from start
+3. Hoisting is applied on this                                                    3. Hoisting is not applied on this
+4. Arrow function don't have their own this pointer                               4. this function have thier own this pointer
+5. Arrow function this pointer pointing to their parent                           5.  this function poiting to their own this pointer
+6. They don't have thier own argument list                                        6. they have their own argument list
+
+
+3. Hoisting :- This is the mechanism by which we can use variables before intializing it.
+
+
+4. Temporal dead zone :- we can't access the let before declearing it so that part of code is temporal dead zone.
+
+5. 
+script tag :- HTML parsing is stopped while loading the script from the network and executing it
+script tag async :- HTML parsing is not stopped cause loading of script is done asynchronously but execution stops the HTML parsing.
+script tag deffer :- HTML parsing is not stopped from both the time cause the loding is done parllelly and execution is done after the HTML parsing.
+
+6.  Reduce function is used to get paraticular result from the array 
