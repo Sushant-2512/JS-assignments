@@ -19,9 +19,10 @@ function test(callback){
    }
    
 
-test(callbackFunc)
+test(callbackFunc)   //first call the test with callback function and then callback function is called from the function
 
 
-test(callbackFunc())
+test(callbackFunc())  //second returned value will be passed to the test function as 5 hence it throws an error by 5()
 
-test(() => {return callbackFunc()})
+
+test(() => {return callbackFunc()})  //third is called successfully because callback function is passed  to the test
