@@ -52,5 +52,3 @@ let obj = {
    console.log(filterObject2())
 
    
-
-
