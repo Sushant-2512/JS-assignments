@@ -30,3 +30,4 @@ obj3["address"]["details"][0]='5';
 console.log(obj1);
 
 console.log(obj2);
+
