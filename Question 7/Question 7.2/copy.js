@@ -56,3 +56,5 @@ console.log([{name:"sushant",lname:"patil",details:[{phone:9075,email:"patil"}]}
 console.log(copy([{name:"sushant",lname:"patil",details:[{phone:9075,email:"patil"}]}]));
 
 
+
+
